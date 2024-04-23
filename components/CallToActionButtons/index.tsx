@@ -24,7 +24,7 @@ const CallToActionButtons = ({
   return (
     <div className={classes}>
       <Button
-        variant={'outline'}
+        variant='outline'
         className={`px-4 py-6 border-simblue text-simblue hover:bg-blue-50 font-bold ${additionalClass}`}
       >
         Request Quote
