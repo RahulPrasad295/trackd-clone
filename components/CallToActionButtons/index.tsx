@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 
-type ButtonProps = {
+type CallToActionButtonsProps = {
   horizontal?: boolean;
   isNav?: boolean;
   additionalClass?: string;
@@ -12,7 +12,7 @@ const CallToActionButtons = ({
   isNav,
   additionalClass,
   justifyCenter = 'flex-between',
-}: ButtonProps) => {
+}: CallToActionButtonsProps) => {
   let classes = 'gap-4 ' + justifyCenter;
   if (!horizontal) {
     classes += ' flex-col';
